@@ -7,16 +7,16 @@
       "type": "constructor"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloSmartContract.sol\":\"HelloSmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloSmartContract.sol\":{\"keccak256\":\"0xc634b7426f2b9e72cacfe61c7a43b82b19a80cabef99fcde11c78538c63eea20\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be91c2cb1003cc3dc0d0113e920b47f605ac97ab987a07c1a3733960a31f308c\",\"dweb:/ipfs/QmXtVEzYnikog5bud4pre1N94dgFiaXsy9NGsK5wMGfAQm\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b3d0fe533f7504ead8b35873e4f33f0b6153d45ee51763bbff97e9fde1c0dc9b64736f6c63430008040033",
-  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b3d0fe533f7504ead8b35873e4f33f0b6153d45ee51763bbff97e9fde1c0dc9b64736f6c63430008040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloSmartContract.sol\":\"HelloSmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloSmartContract.sol\":{\"keccak256\":\"0xdb5b40e2ae49f8cbd44194ccaac9de2f5436e23dc405ccd2428d4e4e81e876a9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://505a1b2cd6599bf82d2af33a31f7e3b3e8f160a61b3674c0a4420eff00cce380\",\"dweb:/ipfs/Qmc7rh9PPT8cm9E1WmxKxNa1KUVTcWFujT2HGJxaWrxZAb\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a6a3d5f49b8e56afc0898d9abeee2d3f1e8c048fcfbdc4de3c74bfcb087b39e764736f6c63430008040033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a6a3d5f49b8e56afc0898d9abeee2d3f1e8c048fcfbdc4de3c74bfcb087b39e764736f6c63430008040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
-  "sourceMap": "57:61:0:-:0;;;90:26;;;;;;;;;;57:61;;;;;;",
-  "deployedSourceMap": "57:61:0:-:0;;;;;",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.4;\n\ncontract HelloSmartContract {\n   constructor () {\n    \n   }\n}",
-  "sourcePath": "C:\\PhucTT\\Source Code\\dev-token\\contracts\\HelloSmartContract.sol",
+  "sourceMap": "60:65:0:-:0;;;94:28;;;;;;;;;;60:65;;;;;;",
+  "deployedSourceMap": "60:65:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.4;\r\n\r\ncontract HelloSmartContract {\r\n   constructor () {\r\n    \r\n   }\r\n}",
+  "sourcePath": "E:\\Sourcecode\\hello-smart-contract\\contracts\\HelloSmartContract.sol",
   "ast": {
     "absolutePath": "project:/contracts/HelloSmartContract.sol",
     "exportedSymbols": {
@@ -37,7 +37,7 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:23:0"
+        "src": "33:23:0"
       },
       {
         "abstract": false,
@@ -50,14 +50,14 @@
           6
         ],
         "name": "HelloSmartContract",
-        "nameLocation": "66:18:0",
+        "nameLocation": "69:18:0",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
               "id": 4,
               "nodeType": "Block",
-              "src": "105:11:0",
+              "src": "109:13:0",
               "statements": []
             },
             "id": 5,
@@ -71,27 +71,27 @@
               "id": 2,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "102:2:0"
+              "src": "106:2:0"
             },
             "returnParameters": {
               "id": 3,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "105:0:0"
+              "src": "109:0:0"
             },
             "scope": 6,
-            "src": "90:26:0",
+            "src": "94:28:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 7,
-        "src": "57:61:0",
+        "src": "60:65:0",
         "usedErrors": []
       }
     ],
-    "src": "32:86:0"
+    "src": "33:92:0"
   },
   "compiler": {
     "name": "solc",
@@ -106,8 +106,7 @@
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-13T07:50:33.071Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-06-13T16:10:21.078Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
